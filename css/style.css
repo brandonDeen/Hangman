@@ -8,6 +8,7 @@ body {
 
 .header {
 	height: 7vh;
+	max-height: 7vh;
 	background-color: #2d2d30;
 	color: white;
 	text-align: center;
@@ -15,10 +16,12 @@ body {
 
 #main {
 	height: 90vh;
+	max-height: 90vh;
 }
 
 footer {
 	height: 3vh;
+	max-height: 3vh;
 	background-color: #2d2d30;
 	color: white;
 }
