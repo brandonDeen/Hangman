@@ -1,0 +1,40 @@
+/*-----GENERAL TAGS-----*/
+
+body {
+    color: #2d2d30;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.header {
+	height: 7vh;
+	background-color: #2d2d30;
+	color: white;
+	text-align: center;
+}
+
+#main {
+	height: 90vh;
+}
+
+footer {
+	height: 3vh;
+	background-color: #2d2d30;
+	color: white;
+}
+
+h1 {
+	margin: 0 !important;
+}
+
+.word_area {
+	font-size: 50px;
+}
+
+#guess_area {
+	text-align: center;
+}
+
+#playagain {
+	display: none;
+}

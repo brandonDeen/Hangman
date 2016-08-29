@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Hangman</title>
+	<!-- meta -->
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<!-- CSS -->
+	<link rel='stylesheet' href='css/bootstrap.min.css' >
+	<link rel='stylesheet' href='css/font-awesome.min.css'>
+	<link rel='stylesheet' href='css/style.css' >
+	<!-- JS -->
+	<script src='js/jQuery.js'></script>
+	<script src='js/bootstrap.min.js'></script>
+	<script src='js/site.js'></script>
+</head>
+<body>
+	<section class='header'>
+		<h1>Hangman</h1>
+	</section>
+
+	<section id='main' class='container-fluid'>
+		<section class='row'>
+			<section class='col-md-1'></section>
+
+			<section class='col-md-10'>
+				<section id='game'>
+					<img id='gallows' src='resources/0.png'>
+					
+				</section>
+				<section>
+					<h1 id='word_area'></h1>
+				</section>
+				<hr>
+				<section class='row'>
+					<section class='col-sm-4'></section>
+					<section id='guess_area' class='input-group col-sm-4'>
+						<input class='form-control' type='text' id='guessbox' maxlength='1' size='10' width='10' placeholder='A'>
+
+		   				<span class='input-group-btn'>
+		        			<button id='guess' class='btn btn-primary' type='button' onclick='handleGuess()'>Submit Guess</button>
+		   				</span>
+
+					</section>
+
+					<section class='col-sm-4'></section>
+				</section>
+				<hr>
+				<section>
+					<h3>Your Guesses:</h3>
+					<h4 id='guessed_letters'></h4>
+					<button id='playagain' class='btn btn-info' onclick='location.reload()'>Play Again</button>
+				</section>
+				
+			</section>
+
+			<section class='col-md-1'></section>
+		</section>
+		
+	</section>
+
+	<footer>
+		<p>Made by Brandon Deen <a target='_blank' href='https://github.com/brandonDeen/GuessingGame'><i class='fa fa-github'></i></a></p>
+	</footer>
+</body>
+</html>
